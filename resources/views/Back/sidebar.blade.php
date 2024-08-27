@@ -20,11 +20,11 @@
             <div class="menu-title">Dashboard</div>
           </a>
           <ul>
-            <li> <a href="../dashboard">
+            <li> <a href="../../dashboard">
               <i class="bi bi-circle"></i>Default
               </a>
             </li>
-            <li> <a href="../dashboard">
+            <li> <a href="../../dashboard">
               <i class="bi bi-circle"></i>Alternate
               </a>
             </li>

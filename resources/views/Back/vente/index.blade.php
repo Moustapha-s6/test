@@ -52,13 +52,8 @@
                                         <td>{{ $vente->created_at->format('d-m-Y H:i') }}</td>
                                         <td>{{ $vente-> reference}}</td>
                                         <td>{{ $vente-> montant_total}}</td>
-                                           <td class="text-right">
-                                        
-                                            <a href="javascript:;" class="text-dark" data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                              title="" data-bs-original-title="Edit info" aria-label="Edit">
-                                              <ion-icon name="pencil-sharp"></ion-icon>
-                                            </a>
-                                                   
+                                          
+                                          
                                             </div>
                                         </td>
                                         
@@ -82,3 +77,26 @@
           </div>
 
 @endsection
+
+<script >
+    $(function() {
+    "use strict";
+
+    $(document).ready(function() {
+        $('#example').DataTable();
+      } );
+
+
+      $(document).ready(function() {
+        var table = $('#example2').DataTable( {
+            lengthChange: false,
+            buttons: [ 'copy', 'excel', 'pdf', 'print']
+        } );
+     
+        table.buttons().container()
+            .appendTo( '#example2_wrapper .col-md-6:eq(0)' );
+    } );
+
+
+});
+</script>
