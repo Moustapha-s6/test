@@ -91,7 +91,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-lg-12 text-center">
-                  <p class="mb-0">Don't have an account? <a href="authentication-sign-up-simple.html">Sign up</a></p>
+                  <p class="mb-0">Don't have an account? <a href="./register">Sign up</a></p>
                 </div>
               </form>
             </div>

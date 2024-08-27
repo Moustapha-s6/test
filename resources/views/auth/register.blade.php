@@ -101,7 +101,7 @@
                   </div>
                 </div>
                 <div class="col-12 col-lg-12 text-center">
-                  <p class="mb-0">Already have an account? <a href="authentication-sign-in-simple.html">Sign in</a></p>
+                  <p class="mb-0">Already have an account? <a href="./login">Sign in</a></p>
                 </div>
               </form>
             </div>
